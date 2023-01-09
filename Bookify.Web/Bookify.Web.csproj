@@ -8,21 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-brands-400.svg" />
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-brands-400.woff2" />
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-regular-400.svg" />
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-regular-400.woff2" />
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-solid-900.svg" />
-    <None Include="wwwroot\assets\css\fonts\%40fortawesome\fa-solid-900.woff2" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-brands-400.svg" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-brands-400.woff2" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-regular-400.svg" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-regular-400.woff2" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-solid-900.svg" />
-    <None Include="wwwroot\assets\css\fonts\line-awesome\la-solid-900.woff2" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.1" />
